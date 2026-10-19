@@ -1,0 +1,1 @@
+{"name":"zahraflorist-prototype","version":"1.0.0","private":true,"type":"module","scripts":{"build:css":"tailwindcss -i assets/css/input.css -o assets/css/tailwind.css --minify","lint":"node scripts/check.mjs","test":"node scripts/test.mjs","serve":"python3 -m http.server 8080"},"devDependencies":{"tailwindcss":"3.4.19","@playwright/test":"^1.58.0","html-validate":"^10.0.0"}}

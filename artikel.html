@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Baca artikel contoh Zahraflorist tentang perawatan bunga, inspirasi hadiah, dan panduan memilih rangkaian. Telusuri kategori serta arsip tulisan.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Artikel — Zahraflorist</title>
+  <link rel="stylesheet" href="assets/css/tailwind.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <script type="module" src="assets/js/articles.js"></script>
+</head>
+<body data-page="artikel" class="bg-[#FAF7F2] font-sans text-[#26372D] antialiased">
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-white focus:p-4">Lewati ke konten utama</a>
+  <header id="site-header"></header>
+  <main id="main-content" tabindex="-1" class="mx-auto max-w-[1200px] px-5 py-10 md:px-8 md:py-16">
+    <nav aria-label="Breadcrumb" class="text-sm"><ol class="flex gap-2"><li><a href="index.html" class="hover:underline">Beranda</a></li><li aria-hidden="true">/</li><li aria-current="page">Artikel</li></ol></nav>
+    <header class="py-10 md:py-14"><p class="text-sm uppercase tracking-[0.2em]">Catatan tentang bunga</p><h1 class="mt-4 font-serif text-4xl md:text-6xl">Inspirasi yang tumbuh.</h1><p class="mt-5 max-w-2xl leading-relaxed">Panduan memilih, merawat, dan menghadiahkan bunga untuk momen yang ingin Anda kenang.</p></header>
+    <p class="mb-10 border-y border-[#26372D]/15 py-4 text-sm">Artikel dan gambar merupakan konten contoh untuk presentasi.</p>
+    <div class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-x-16">
+      <aside aria-label="Pencarian dan filter artikel" class="min-w-0 space-y-8 lg:col-start-2 lg:row-start-1">
+        <form id="article-search" role="search"><label for="article-query" class="mb-3 block font-medium">Cari artikel</label><div class="flex gap-2"><input id="article-query" name="q" type="search" placeholder="Kata kunci…" class="min-h-11 min-w-0 flex-1 rounded border border-[#26372D]/25 bg-white px-3 py-3"><button type="submit" class="min-h-11 rounded bg-[#315746] px-4 py-3 text-white">Cari</button></div></form>
+        <section aria-labelledby="category-title"><h2 id="category-title" class="mb-3 font-serif text-2xl">Kategori</h2><nav id="article-filters" aria-label="Kategori artikel" class="space-y-1"></nav></section>
+        <div><label for="article-archive" class="mb-3 block font-serif text-2xl">Arsip tulisan</label><select id="article-archive" class="min-h-11 w-full rounded border border-[#26372D]/25 bg-white px-3 py-3"><option value="">Semua arsip</option></select></div>
+        <button id="article-reset" type="button" class="min-h-11 py-3 underline underline-offset-4">Atur Ulang Filter</button>
+      </aside>
+      <section aria-label="Daftar artikel" class="min-w-0 lg:col-start-1 lg:row-span-2 lg:row-start-1">
+        <p id="article-count" role="status" aria-live="polite" class="mb-6 border-b border-[#26372D]/15 pb-5"></p>
+        <div id="article-list" class="grid gap-10"></div>
+        <nav id="pagination" aria-label="Halaman artikel" class="mt-12 flex flex-wrap justify-center gap-2"></nav>
+      </section>
+      <aside aria-labelledby="recent-title" class="min-w-0 border-t border-[#26372D]/15 pt-6 lg:col-start-2 lg:row-start-2"><h2 id="recent-title" class="font-serif text-2xl">Artikel terbaru</h2><div id="recent-articles" class="mt-3"></div></aside>
+    </div>
+    <noscript><p class="py-8">Aktifkan JavaScript untuk menampilkan artikel, kategori, dan arsip.</p></noscript>
+  </main>
+  <footer id="site-footer"></footer>
+</body>
+</html>
